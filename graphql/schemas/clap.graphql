@@ -1,0 +1,15 @@
+type Clap {
+  id: Int!
+  todo: Todo!
+  user: User!
+  clapsNb: Int!
+}
+
+type Query {
+  getClaps(todoId: Int!): [Clap!]
+  getClapsNb(todoId: Int!): Int!
+}
+
+type Mutation {
+  clapTodo(userId: Int!, todoId: Int!): Clap
+}

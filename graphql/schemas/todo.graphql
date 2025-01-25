@@ -1,0 +1,15 @@
+type Todo {
+  id: Int!
+  name: String!
+  user: User!
+  claps: [Clap!]
+}
+
+type Query {
+  getAllTodos: [Todo!]
+  getTodo(todoId: Int!): [Clap!]
+}
+
+type Mutation {
+  createTodo(name: String!, userId: Int!): Todo
+}

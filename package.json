@@ -1,0 +1,32 @@
+{
+  "name": "cycle-technical-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "createdb": "npx sequelize-cli db:create",
+    "serve": "tsx watch index.ts",
+    "migrate": "npx tsx ./migrations/migrations.ts"
+  },
+  "keywords": [],
+  "author": "Vassia",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@apollo/server": "^4.11.3",
+    "@types/sequelize": "^4.28.20",
+    "graphql": "^16.10.0",
+    "pg": "^8.13.1",
+    "sequelize": "^6.37.5",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.10",
+    "globals": "^15.14.0",
+    "prettier": "3.4.2",
+    "sequelize-cli": "^6.6.2",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.21.0"
+  }
+}

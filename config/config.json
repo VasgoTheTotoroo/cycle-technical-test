@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "250399",
+    "database": "todo_clap_db",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "url": null
+  },
+  "test": {
+    "username": "postgres",
+    "password": "250399",
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "url": null
+  },
+  "production": {
+    "username": "root",
+    "password": "",
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "url": null
+  }
+}

@@ -1,0 +1,5 @@
+type User {
+  id: Int!
+  todos: [Todo!]
+  claps: [Clap!]
+}
